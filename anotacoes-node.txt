@@ -1,0 +1,25 @@
+Node.JS
+
+- Node é um ambiente de execução da linguagem JavasScript (ou TypeScript) fora do browser.
+- Possui diversas funcionalidade:
+    - REST API's
+    - Chatbots
+    - Web Scraping
+    - Web Servers
+    - Streaming
+    - IoT
+- Node e JavasScript utilizam exatamente a mesma linguagem. O que diferencia o Node dos navegadores é a "engine" utilizada para interpretar JavasScript.
+- Node utiliza o "motor V8" mesma engine do Chrome.
+- Node não possui todas as bibliotecas nativas já implementadas nos navegadores, mas possui bibliotecas específicas que os navegadores não tem, normalmente bibliotecas voltadas para o desenvolvimento Back-End.
+- É possível desenvolver aplicações completas com o Node.JS.
+- Comandos Node:
+    node -v || node -version => mostra a versão do Node instalada
+    ctrl + c || .exit => sai do terminal de execução
+- O "package.json" é um arquivo central que mostra as principais informações do projeto e suas dependências.
+    - O arquivo "package-lock.json" serve como referência de todos os módulos e suas versões instaladas.
+- Gerenciadores de pacote são ferramentas capazes de baixar e instalar módulos e bibliotecas de terceiros.
+    - NPM: já vem instalado por padrão no Node.
+    - YARN: pode ser instalado via npm.
+    OBS.: no geral NPM/YARN fazem a mesma coisa.
+- A pasta "node_modules" serve para guardar todos os módulos instalados que são necessários para a execução da aplicação. Podemos instalar esses módulos localmente, dentro da pasta do projeto, ou globalmente.
+- Pesquisar: Arquitetura do Node.JS - Loop Event.
